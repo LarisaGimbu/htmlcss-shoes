@@ -53,7 +53,7 @@ nav a:hover{
   background-color: yellow;
 }
 
-img{
+.block{
   position: absolute;
   top: 50%;
   left: 50%;
@@ -61,13 +61,14 @@ img{
   height: 50%;
 }
 
-h2{
-  position: absolute;
-  top: 80%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.block img {
+  width:100%;
+}
+
+.block h2{
   color: yellow;
   text-align: center;
+  font-size:3vw;
 }
 
 #third h2{
