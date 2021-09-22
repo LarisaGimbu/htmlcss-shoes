@@ -4,6 +4,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+html{
+  scroll-behavior: smooth;
+}
 
 body{
   font-family: 'Rubik Mono One', sans-serif;
@@ -58,11 +61,11 @@ nav a:hover{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  height: 50%;
 }
 
 .block img {
   width:100%;
+  
 }
 
 .block h2{
