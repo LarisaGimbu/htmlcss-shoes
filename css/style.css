@@ -15,9 +15,10 @@ body{
 /* HEADER  */
 nav{
   position: fixed;
-  top: 45px;
-  right: 20px;
+  top: 0;
+  right: 0;
   z-index: 50;
+  padding: 40px;
 }
 
 nav li{
@@ -34,7 +35,7 @@ nav a{
 }
 
 nav a:hover{
-  background-color: greenyellow;
+  box-shadow: 1px 1px 2px black;
 }
 
 /* MAIN */
@@ -65,7 +66,6 @@ nav a:hover{
 
 .block img {
   width:100%;
-  
 }
 
 .block h2{
